@@ -1,6 +1,6 @@
 proxy:
   proxytype: napalm
-  driver: iosxr
+  driver: eos
   host: example.com
   username: test
   password: test
