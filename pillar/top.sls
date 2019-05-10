@@ -1,5 +1,7 @@
 base:
-  junos:
+  dummy:
+    - dummy_pillar
+  juniper-router:
     - junos_pillar
-  cisco-xr:
-    - cisco_xr_pillar
+  arista-switch:
+    - arista_pillar
