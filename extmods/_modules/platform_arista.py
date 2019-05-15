@@ -1,6 +1,9 @@
+__virtualname__ = 'platform'
+
+
 def __virtual__():
     if __grains__['os'] == 'eos':
-        return 'platform'
+        return True
     else:
         return (False, 'Not loading this module, as this is not an Arista switch')
 

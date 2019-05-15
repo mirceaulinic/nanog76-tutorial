@@ -1,6 +1,6 @@
 proxy:
   proxytype: napalm
   driver: eos
-  host: example.com
-  username: test
-  password: test
+  host: arista.nanog76-demo.digitalocean.cloud.tesuto.com
+  username: salt
+  password: password

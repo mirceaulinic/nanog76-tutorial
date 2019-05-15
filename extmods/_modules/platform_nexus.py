@@ -1,6 +1,9 @@
+__virtualname__ = 'platform'
+
+
 def __virtual__():
     if __grains__['os'] == 'nxos':
-        return 'platform'
+        return True
     else:
         return (False, 'Not loading this module, as this is not Cisco Nexus switch')
 

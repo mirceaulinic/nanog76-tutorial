@@ -1,6 +1,6 @@
 proxy:
   proxytype: napalm
   driver: junos
-  host: example.com
-  username: test
-  password: test
+  host: juniper.nanog76-demo.digitalocean.cloud.tesuto.com
+  username: salt
+  password: password
