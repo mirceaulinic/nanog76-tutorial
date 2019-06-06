@@ -9,8 +9,8 @@ services:
       - LOG_LEVEL
     volumes:
       - ./master:/etc/salt/master
-      - ./pillar/:/etc/salt/pillar/
-      - ./extmods/:/etc/salt/extmods/
+      - ./pillar/:/srv/salt/pillar/
+      - ./extmods/:/srv/salt/extmods/
     network_mode: host
   salt-proxy:
     image: mirceaulinic/salt-proxy:2019.2.0
