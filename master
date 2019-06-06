@@ -2,9 +2,9 @@ open_mode: true
 
 pillar_roots:
   base:
-    - /etc/salt/pillar
+    - /srv/salt/pillar
 
 file_roots:
   base:
-    - /etc/salt
-    - /etc/salt/extmods
+    - /srv/salt
+    - /srv/salt/extmods
