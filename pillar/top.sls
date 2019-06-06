@@ -4,4 +4,4 @@ base:
   juniper-router:
     - junos_pillar
   arista-switch:
-    - arista_pillar
+    - eos_pillar
