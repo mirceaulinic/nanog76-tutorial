@@ -1,0 +1,7 @@
+{%- set os_version = salt.example.version() %}
+
+{%- if grains.os == 'junos' %}
+set system host-name junos-{{ os_version }}
+{%- elif grains.os == 'eos' %}
+hostname eos-{{ os_version }}
+{%- endif %}
