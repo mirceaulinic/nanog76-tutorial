@@ -5,6 +5,9 @@ This repository contains the Pillars and the extension modules used during the
 live demo for the `NANOG 76 tutorial 
 <https://pc.nanog.org/static/published/meetings//NANOG76/daily/day_3.html#talk_1982>`__.
 
+The slides are available at:
+https://pc.nanog.org/static/published/meetings/NANOG76/1982/20190612_Ulinic_Extending_Salt_S_Capabilities_v1.pdf
+
 During the live demo I have provided access to several 
 https://www.digitalocean.com/ `Droplets 
 <https://www.digitalocean.com/products/droplets/>`__, from where we can manage 
